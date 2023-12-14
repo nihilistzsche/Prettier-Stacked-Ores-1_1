@@ -9,7 +9,7 @@ if mods["DeadlockStacking"] or mods["deadlock-beltboxes-loaders"] then
     local function replaceStackIcon(somethingWithIcon, itemName, targetDir)
         if not somethingWithIcon then return end
 
-        basePath = "__Prettier-Stacked-Ores-1.1__/graphics/icons/mip/"..targetDir
+        basePath = "__Prettier-Stacked-Ores-1_1__/graphics/icons/mip/"..targetDir
         baseIcon = basePath..itemName
 
         somethingWithIcon.icon = baseIcon..".png"
